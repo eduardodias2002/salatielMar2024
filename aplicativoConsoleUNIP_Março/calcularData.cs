@@ -11,12 +11,12 @@ public class calcularData{
 
     public void informarProduto(){
         Console.Clear();
-        Console.WriteLine("Informações do produto\n"); // todas as informações no objeto "produto" são exibidas na tela
-        Console.WriteLine("Nome do produto: " + objProduto._nome);
+        Console.WriteLine("Informações do Produto\n"); // todas as informações no objeto "produto" são exibidas na tela
+        Console.WriteLine("Nome do Produto: " + objProduto._nome);
         Console.WriteLine("Valor: R$" + objProduto._valor);
-        Console.WriteLine("Região do produto: " + objProduto._origem);
+        Console.WriteLine("Região do Produto: " + objProduto._origem);
         Console.WriteLine("Quantidade: " + objProduto._quantidade + " unidade(s)");
-        Console.WriteLine("Data de aquisição: " + objProduto._aquisicaoData.ToString("dd/MM/yyyy")); // convertido para não aparecer horas, minutos, e segundos
+        Console.WriteLine("Data de Aquisição: " + objProduto._aquisicaoData.ToString("dd/MM/yyyy")); // convertido para não aparecer horas, minutos, e segundos
         Console.WriteLine("Data de Validade : " + objProduto._validadeData.ToString("MM/yyyy")); // mesmo
         Console.WriteLine("\nAperte qualquer tecla para prosseguir.");
         Console.ReadKey(); // aguarda até o usuário apertar qualquer tecla
